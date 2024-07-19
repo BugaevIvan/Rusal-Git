@@ -1,0 +1,19 @@
+.InputText {
+    border: 1px solid #ccc;
+    height: 34px;
+    border-radius: 5px;
+    padding: 8px 12px;
+    font-size: 14px;
+}
+
+.InputText:focus {
+    border-color: #3898ec;
+    outline: 0;
+}
+
+.text_field {
+    border-radius: 5px;
+    padding: 8px 12px;
+    font-size: 14px;
+    height: 14px;
+}

@@ -1,0 +1,45 @@
+{
+  "first_column": [
+    {
+      "tag": "select",
+      "id": "status",
+      "title": "Статус"
+    },
+    {
+      "tag": "select",
+      "id": "type",
+      "title": "Тип"
+    },
+    {
+      "tag": "select",
+      "id": "typePeriod",
+      "title": "Тип периода"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "id": "organization",
+      "title": "Организация"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "id": "comment",
+      "title": "Комментарий"
+    }
+  ],
+  "second_column": [
+    {
+      "tag": "input",
+      "type": "date",
+      "id": "datefrom",
+      "title": "Дата с"
+    },
+    {
+      "tag": "input",
+      "type": "date",
+      "id": "dateto",
+      "title": "Дата по"
+    }
+  ]
+}

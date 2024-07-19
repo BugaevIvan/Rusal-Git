@@ -1,0 +1,139 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background: linear-gradient(
+    99deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(208, 208, 228, 1) 0%,
+    rgba(230, 217, 172, 1) 100%
+  );
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+#center-main {
+    width: 1340px;
+    max-width: 1340px;
+    min-width: 1340px;
+    height: 660px;
+    max-height: 660px;
+    min-height: 660px;
+    margin: 30px 40px;
+    background-color: #fff;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 20px;
+    margin: 0;
+
+    #title {
+        box-sizing: border-box;
+        padding: 0 20px 0 30px;
+        background-color: #dddcdc;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 30px;
+        height: 80px;
+        min-height: 80px;
+        max-height: 80px;
+        width: 100%;
+        min-width: 700px;
+        max-width: 100%;
+        border-radius: 20px 20px 0 0;
+
+        #left-title {
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+
+            #title-content {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+
+    #options {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        gap: 20px;
+
+        #left_options {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 5px;
+        }
+
+        #right_options {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            align-items: center;
+            gap: 5px;
+
+            .button#open_pass {
+                display: none;
+            }
+
+            .button#add_pass {
+                background-color: rgb(60, 155, 81);
+
+                &:hover {
+                    background-color: rgb(51, 135, 69);
+                }
+
+                &:active {
+                    background-color: rgb(45, 117, 60);
+                }
+            }
+        }
+    }
+
+    #data-container {
+        box-sizing: border-box;
+        overflow: auto;
+        justify-content: center;
+        align-items: flex-start;
+        display: flex;
+        padding: 15px;
+        border-radius: 0 0 20px 20px;
+        width: 100%;
+        max-height: 520px;
+        min-height: 520px;
+        height: 100%;
+    }
+}

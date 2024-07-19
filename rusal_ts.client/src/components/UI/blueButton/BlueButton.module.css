@@ -1,0 +1,21 @@
+.BlueButton {
+    border: 0;
+    color: #fff;
+    border-radius: 5px;
+    padding: 6px 12px;
+    font-size: 20px;
+    background-color: #4557af;
+}
+
+.BlueButton:focus {
+    border-color: #3898ec;
+    outline: 0;
+}
+
+.BlueButton:hover {
+    background-color: #3c4c9b;
+}
+
+.BlueButton:active {
+    background-color: #354388;
+}

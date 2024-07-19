@@ -1,0 +1,12 @@
+.Select {
+    border-radius: 5px;
+    width: 160px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    height: 34px;
+}
+
+.Select:focus {
+    border-color: #3898ec;
+    outline: 0;
+}

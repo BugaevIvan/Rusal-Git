@@ -1,0 +1,16 @@
+.GreenButton {
+    background-color: rgb(60, 155, 81);
+    border: 0;
+    color: #fff;
+    border-radius: 5px;
+    padding: 6px 12px;
+    font-size: 20px;
+}
+
+.GreenButton:hover {
+    background-color: rgb(51, 135, 69);
+}
+
+.GreenButton:active {
+    background-color: rgb(45, 117, 60);
+}

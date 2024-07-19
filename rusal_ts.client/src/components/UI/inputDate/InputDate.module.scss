@@ -1,0 +1,39 @@
+.date {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.left_from_date {
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    padding: 8px 12px;
+    font-size: 16px;
+    height: 34px;
+    width: max-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-right: none;
+}
+
+.text_field {
+    border-radius: 5px;
+    padding: 8px 12px;
+    font-size: 14px;
+    height: 14px;
+}
+
+input[type=date] {
+    border-radius: 0 5px 5px 0;
+    border: 1px solid #ccc;
+    height: 34px;
+
+    &:focus {
+        border-color: #3898ec;
+        outline: 0;
+    }
+}

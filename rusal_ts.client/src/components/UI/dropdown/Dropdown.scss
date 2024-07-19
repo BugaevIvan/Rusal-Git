@@ -1,0 +1,75 @@
+#dropdown {
+  height: 40%;
+  z-index: 100;
+  display: flex;
+  flex-direction: row;
+
+  /* Кнопка выпадающего списка */
+  #threeDotsVertical {
+    cursor: pointer;
+    min-height: 35px;
+  }
+
+  #dropdown-content span {
+    margin-left: 5px;
+  }
+
+  /* Выпадающее содержимое (скрыто по умолчанию) */
+  #dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 230px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+  }
+
+  /* ссылки с img и span */
+  #dropdown-content a {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: black;
+    padding: 6px 10px;
+    text-decoration: none;
+    gap: 30px;
+  }
+
+  /* Картинки */
+  #dropdown-content a img {
+    display: flex;
+    width: 20px;
+    height: 20px;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+  }
+  #dropdown-content a span {
+    /* word-wrap: break-word; */
+    text-wrap: nowrap;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+  }
+
+  /* Размер обучающихся материалов */
+  .list-mater {
+    white-space: nowrap;
+  }
+
+  /* Линия перед выходом */
+  #line {
+    height: 1px;
+    background-color: #b0b0b0;
+  }
+
+  /* Изменение цвета выпадающих ссылок при наведении курсора */
+  #dropdown-content a:hover {
+    background-color: #f5f5f5;
+  }
+
+  /* Показать выпадающее меню (используйте JS, чтобы добавить этот класс #dropdown-content содержимого, когда пользователь нажимает на кнопку выпадающего списка) */
+  .show {
+    display: block;
+  }
+}

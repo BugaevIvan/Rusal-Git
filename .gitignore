@@ -1,0 +1,9 @@
+/.vs/
+
+/rusal_ts.client/node_modules/
+/rusal_ts.client/dist/
+/rusal_ts.client/[Oo]bj/
+/rusal_ts.client/package-lock.json
+
+/rusal_ts.Server/[Oo]bj/
+/rusal_ts.Server/[Bb]in/
